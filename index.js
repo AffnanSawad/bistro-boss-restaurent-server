@@ -37,7 +37,8 @@ async function run() {
     const menuCollection = database.collection("menu");
     const reviewsCollection = client.db("bistroBoss").collection("reviews")
 
-
+   
+    // MENU + REVIEWS API :
     // get menu
     app.get('/menu', async(req,res)=>{
 
